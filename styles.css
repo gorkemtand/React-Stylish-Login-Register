@@ -206,3 +206,33 @@ input {
 .custom-btn:active {
   transform: scale(0.8);
 }
+
+@media (max-width: 780px) {
+  h1 {
+    font-size: 2rem;
+    padding: 0 10px 0 10px;
+  }
+  .icon {
+    top: auto;
+    left: 0px;
+    transform: none;
+  }
+  input {
+    font-size: 0.9rem;
+    width: 80%;
+    height: 26px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .icon {
+    display: none;
+  }
+  p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px 20px 20px 20px;
+  }
+}
+
